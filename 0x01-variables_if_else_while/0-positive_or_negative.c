@@ -12,18 +12,11 @@ int main(void)
 	/* your code goes there */
 	return (0);
 }
-if (n > 0);
+if (n > 0)
 {
-	printf ("the number is positive");
-}
-else
-{
-	if (n < 0);
-	{
-	printf ("the number is negative");
-	}
+	printf("the number is positive");
+	else if (n < 0)
+	printf(" the number is negative");
 	else 
-	{
-		printf (" the number is zero");
-	}
-
+	printf("the number is zero);
+}
