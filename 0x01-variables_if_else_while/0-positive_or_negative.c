@@ -14,9 +14,9 @@ int main(void)
 }
 if (n > 0)
 {
-	printf("the number is positive");
+	printf("the number is positive\n");
 	else if (n < 0)
-	printf(" the number is negative");
+	printf(" the number is negative\n");
 	else 
-	printf("the number is zero);
+	printf("the number is zero\n");
 }
